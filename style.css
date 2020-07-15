@@ -1,0 +1,80 @@
+header {
+    background-color: rgb(253, 253, 44);
+    border-radius: 2px;
+    
+}
+
+#myheader {
+    padding: 5px;
+}
+
+main {
+    background-color: silver;
+}
+
+footer {
+    background-color: rgba(218, 85, 85, 0.349);
+}
+
+/*.mykredit {
+    background-color: #FDE74C;
+}
+.mydeposit {
+    background-color: #9BC53D;
+}
+
+.mycard {
+    background-color:#E55934;
+}
+
+.myexchange {
+    background-color:#FA7921;
+}
+*/
+
+.mycss {
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.mydisplay {
+    font-size: 1.3em;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    color:rgba(17, 10, 10, 0.938) ;
+    background-color: #1E90FF;
+    color: white;
+}
+
+.mydisplay:hover {
+    background-color: rgb(87, 171, 255);
+}
+
+.mydoc p {
+    margin: 5px 0;
+}
+.myinput {
+    border: 1px solid #1E90FF;
+}
+
+.mybutton {
+    margin: 10px;
+   
+}
+
+#firstkredit {
+    display: none;
+}
+
+#firstdeposit {
+    display: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .mydoc { float: left;}
+    
+
+
+}
