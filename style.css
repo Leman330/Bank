@@ -63,17 +63,18 @@ footer {
    
 }
 
-#firstkredit {
+#firstkredit, #firstdeposit, #firstcard, #firstvalyuta {
     display: none;
 }
 
-#firstdeposit {
-    display: none;
-}
+
 
 
 @media only screen and (min-width: 600px) {
     .mydoc { float: left;}
+    .mykredit, .mydeposit, .mycard, .myexchange { display: flex ;  }
+    #firstkredit, #firstdeposit, #firstcard, #firstvalyuta { margin: auto;}
+    .row {border: 1px solid red;}
     
 
 
